@@ -1,0 +1,19 @@
+{
+  "app": {
+    "port": 8001,
+    "localhostOnly": false,
+    "appKey": "Your_Uniq_Any_Private_Random_Key",
+    "debug": false,
+    "backups": true
+  },
+  "smartholdem": {
+    "preferredNode": "127.0.0.1",
+    "masterAddress": "",
+    "masterKey": "",
+    "salt": "",
+    "consolidateOnMasterAddress": true,
+    "confirmations": 10,
+    "blocks": 6,
+    "minAmount": 10
+  }
+}
