@@ -1,19 +1,21 @@
 {
   "app": {
-    "port": 8001,
+    "port": 12345,
     "localhostOnly": false,
     "appKey": "Your_Uniq_Any_Private_Random_Key",
     "debug": false,
     "backups": true
   },
   "smartholdem": {
-    "preferredNode": "127.0.0.1",
-    "masterAddress": "",
-    "masterKey": "",
-    "salt": "",
+    "withdrawFee": 15,
+    "node": "http://127.0.0.1:4003/api",
+    "masterAddress": "SmartHoldem_public_address",
+    "masterKey": "BIP39_pass_12_24_phrase",
+    "salt": "YOUR_SUPER_SECRET_SALT",
     "consolidateOnMasterAddress": true,
-    "confirmations": 10,
-    "blocks": 6,
-    "minAmount": 10
+    "confirmations": 2,
+    "blocks": 1,
+    "minAmount": 9,
+    "minDeposit": 16
   }
 }
